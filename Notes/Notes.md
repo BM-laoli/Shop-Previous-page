@@ -7,7 +7,16 @@
 > 3. 网站搜索引擎SEO优化 title  +  description  +   keyword三个标签(meta)进行简单的优化，这三个标签里面的内容是有一定要求的，这有利于**搜索引擎的优化**，请你注意
 > 4. 引入字体图标
 
+# GIT命令：
+> git status 
+> git checkout -b (new branch)
+> git branch
+> 合并分支 （在当前的分支合并另一个分支过来） git merge (branch)  ---注意这里你需要把分支合并一下
+> 远程推送 git push  --> 这个可以直接推送过云端，因为云端有一个master了 
+> 第一工程推送分支 git push  -u origin (new branch)
+
 # inde页面
+
 
 ## shortcut
 1. 如果一个大盒子里面有很多的浮动，那么我们可以利用 继承 的特性，直接给大盒子float值就行
