@@ -1,0 +1,305 @@
+.main {
+    width: 980px;
+    height: 455px;
+    /* background-color: pink; */
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: red; */
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .2);
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    margin: 0 5px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #cccccc;
+    background-color: #ffff;
+}
+
+.news_hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 15px;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.news_hd a {
+    float: right;
+    font-size: 12px;
+    /* padding: 0 5px; */
+}
+
+.lifeservice {
+    /* width: 282px; */
+    height: 208px;
+    /* background-color: purple; */
+    border: 1px solid #cccccc;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+    /* background-color: green;
+     */
+}
+
+.news_bd {
+    padding: 10px 0 0 15px;
+}
+
+.news_bd li {
+    height: 23px;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.lifeservice li a {
+    display: block;
+    /* 解决外编辑合并问题  因为下面的i页是一个快元素 两个块元素如果有margin会出现外边距合并或者塌陷问题*/
+    overflow: hidden;
+    height: 100%;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    /* background-color: pink;
+     */
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_hf {
+    background-position: -17px -16px;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+
+.recom_hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom_hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.recom_bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recom_bd li:last-child {
+    border-right: 0;
+}
+
+.box_hd {
+    height: 30px;
+    /* background-color: pink; */
+    border-bottom: 2px solid red;
+    margin-top: 25px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: red;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    margin: 0 5px;
+}
+
+.box_bd {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+
+/* 
+.tab_con {
+    overflow: hidden;
+} */
+
+.tab_con li {
+    float: left;
+    height: 361px;
+    overflow: hidden;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_con_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    /* float: left; */
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #000000;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.flextool {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    /* height: 250px; */
+    /* background-color: pink; */
+}
+
+.flextool li {
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.flextool .current {
+    background-color: red;
+    color: #fff;
+}
+
+.box_bd img {
+    transition: all ease 0.5s;
+}
+
+.box_bd img:hover {
+    margin-left: 8px;
+}
